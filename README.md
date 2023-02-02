@@ -10,3 +10,5 @@ Photo de la rose par Lamproslefteris (Définition de la photo réduite pour le s
 Image des jeux "Professeur Layton" par Pedro Szekely (Résolution de la photo modifiée pour le site) : http://bit.ly/3JCD8Ee
 
 Photo du processeur par Lamproslefteris (Définition de la photo réduite pour le site) : http://bit.ly/40lBY63
+
+test
