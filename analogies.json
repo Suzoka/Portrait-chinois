@@ -1,0 +1,72 @@
+[
+    {
+        "num": "1",
+        "analogie": "une fleur",
+        "valeurAnalogie": "une rose",
+        "explication": "je suis quelqu'un de très romantique",
+        "detail" : "Car la rose est l'un des principaux symboles de l'amour. C'est pourquoi j'ai choisi cette analogie pour amener cette facette de ma personalité",
+        "couleur": "red",
+        "image": "./img/Rose.jpg",
+        "alt":"Photo d'une rose"
+    },
+    {
+        "num": "2",
+        "analogie": "un sport",
+        "valeurAnalogie": "la plongée sous-marine",
+        "explication": "j'ai l'esprit scientifique",
+        "detail" : "Effectivement, la plongée est un sport qui regroupe beaucoup de savoirs scientifiques. Il y a quelques notions scientifiques qu'il faut absolument connaitre. La science fait partie intégrante de la plongée sous-marine, et personellement, la science de manière générale est un domaine qui me fascine",
+        "couleur": "blue",
+        "image": "./img/Plongée.jpg",
+        "alt":"Photo de Morgan en plongée"
+    },
+    {
+        "num": "3",
+        "analogie": "un jeu vidéo",
+        "valeurAnalogie": "les \"Professeur Layton\"",
+        "explication": "ces jeux sont toujours pleins de surprises",
+        "detail" : "Car Professeur Layton est une série de jeu qui a bercé mon enfance. Là où ce jeu est génial, c'est dans ces scénarios, toujours remplis de rebondissements, et donc plein de surprises, tout comme moi",
+        "couleur": "brown",
+        "image": "./img/ProfesseurLayton.jpg",
+        "alt":"Photo des boites des trois premiers \"Professeur Layton\""
+    },
+    {
+        "num": "4",
+        "analogie": "un fruit",
+        "valeurAnalogie": "une orange",
+        "explication": "je suis toujours enthousiaste et plein d'énergie",
+        "detail" : "Et l'orange est un fruit rempli de vitamines, donc colle bien avec le fait d'être énergique",
+        "couleur": "orange",
+        "image": "./img/Orange.jpg",
+        "alt":"Photo d'une orange"
+    },
+    {
+        "num": "5",
+        "analogie": "un animal",
+        "valeurAnalogie": "un dauphin",
+        "explication": "il est très bon apnéiste",
+        "detail" : "Il faut savoir que l'apnée est un sport que je pratique. Je suis pas aussi bon que les dauphins, mais je tient tout de même 3 minutes en statique et peux descendre à 18 mètres en mer",
+        "couleur": "aqua",
+        "image": "./img/Apnée.jpg",
+        "alt":"Photo de Morgan en train de faire de l'apnée en pleine mer"
+    },
+    {
+        "num": "6",
+        "analogie": "un composant électronique",
+        "valeurAnalogie": "un processeur overcloqué",
+        "explication": "je réfléchis toujours trop",
+        "detail" : "Un processeur overcloqué est un processeur que l'on pousse au-delà de ses capacités, j'ai donc trouvé cette comparaison avec mon cerveau qui réfléchit tout le temps pour tout et n'importe quoi",
+        "couleur": "yellow",
+        "image": "./img/Processeur.jpg",
+        "alt":"Photo d'un processeur"
+    },
+    {
+        "num": "7",
+        "analogie": "une qualité",
+        "valeurAnalogie": "la patience",
+        "explication": "c'est l'une de mes pricipales qualités",
+        "detail" : "Je suis capable de rester plusieurs heures sur une même tâche tant que je n'aurai pas réussie. C'est donc une qualité que je pense avoir (oui, j'ai vraiment fait un château de cartes juste pour cette SAÉ)",
+        "couleur": "mediumorchid",
+        "image": "./img/ChateauDeCartes.jpg",
+        "alt":"Photo d'un château de cartes"
+    }
+]

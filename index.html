@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait chinois Morgan ZARKA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Portrait chinois de Morgan ZARKA</h1>
+    <div class="analogies"></div>
+    <div class="popup popup-invisible">
+        <form action="">
+            <fieldset>
+                <legend> Crée ton analogie !</legend>
+                <section>
+                    <p><label>Si j'étais<span>*</span> <input id="analogie" type="text" name="analogie"
+                                placeholder="Ton analogie" required></label>,<label> alors je serais<span>*</span> <input id="valeurAnalogie"
+                                type="text" name="ValeurAnalogie" placeholder="Ta réponse" required></label><label> car<span>*</span> <input
+                                id="explication" type="text" name="explication" placeholder="Ton explication" required>.</label>
+                    </p>
+                    <p><label>Choisis ta couleur : # <input id="couleur" type="text" name="couleur"
+                                placeholder="Hexa code (6 caractères)" pattern="[0-9a-fA-F]{6}" maxlength="6"></label></p>
+                    <p><label>Ton image : <textarea id="image" name="image" cols="20" rows="1"
+                                placeholder="Lien de ton image"></textarea></label></p>
+                    <p><label>Texte alternatif de l'image : <textarea id="alt" name="alt" cols="45" rows="1"
+                                placeholder="Texte qui sera affiché si l'image ne charge pas" ></textarea></label></p>
+                    <p><label>Ton détail<span>*</span> : <textarea id="detail" name="detail" cols="40" rows="5" required></textarea></label>
+                    </p>
+                    <p class="mail"><label>Ton Email<span>*</span> : <input id="mail" type="email" name="mail" required></label></p>
+                </section>
+                <section class="submit">
+                    <p>Envoyer</p>
+                </section>
+            </fieldset>
+        </form>
+    </div>
+
+    <p class="formulaire">Crée ton analogie</p>
+    <div class="analogiesPerso"></div>
+    <footer>
+        <p class="mentionsLégales">Mentions légales</p>
+        <p>Site édité par Morgan ZARKA (morgan.zarka@edu.univ-eiffel.fr) dans le cadre de la SAÉ 1.05<br>© Morgan ZARKA,
+            2022.</p>
+        <p>Fonction "footer" par Phillipe GAMBETTE (philippe.gambette@univ-eiffel.fr)</p>
+        <p>Photo de la rose prise ici : <a tabindex="-1"
+                href="https://www.flickr.com/photos/pedrosz/34309202136/in/photolist-UgMCtS-TYFWUC-cbTLKy-cYifQ3-cYigwU-57iCFK-F7tzFr-cDW7rf-cYihxW-521t63-4YQdnE-4UG92P-8QZ9ms-cXPCuC-nFTTRw-de1ukB-uKJcf7-8QW3j2-8d6Mup-mxWooZ-tTyYqy-mxW5HB-seoft-eGAGc5-fkcppz-TEqNVd-7eUqGp-82W57Z-7z1D37-32gDyY-qJovfv-8YCTf8-eZrSH-s5Kpe-s5K7L-22e5Re-aFFW3i-ajafsx-dwkKGP-UqZjg-61yzLa-de1upB-4RR3Yr-6tpnbX-p7AqrJ-kQKAq-yvgEP-hT8NSL-s5JNX-4WsnYT/">Photo
+                par Lamproslefteris</a> (Définition de la photo réduite pour le site)</p>
+        <p>Image des jeux "Professeur Layton" prise ici : <a tabindex="-1"
+                href="https://www.flickr.com/photos/90981665@N08/37161024156/in/photolist-d2yaiY-6JLULw-MTmoCT-9go1LQ-duKc7S-9gEfRz-9gEe46-9gE8KT-9gE6zD-9gHgCA-9c5VgQ-2khdzFP-YBMXP3-cxwrYL-2o3CQPY-8PsmBL-LvwMs9-6WBfLF-MTDEN5-duDywK-9Kh8iy-eLXdQp-eM9By7-bBUyrM-8gp6qq">Photo
+                par Pedro Szekely</a> (Résolution de la photo modifiée pour le site)</p>
+        <p>Photo du processeur prise ici : <a tabindex="-1"
+                href="https://commons.wikimedia.org/wiki/File:Central_processing_unit.jpg">Photo par Lamproslefteris</a>
+            (Définition de la photo réduite pour le site)</p>
+        <p>Les donées entrés lorsque vous créez votre analogie sont enregistrés sur un serveur en France. Votre mail et
+            votre adresse IP sont également stockés sur le serveur pendant 1 an (toutes les données seront suprimés
+            l'été prochain. La personne en charge du traitement de ces données est Philipe GAMBETTE
+            (philippe.gambette@univ-eiffel.fr)</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
